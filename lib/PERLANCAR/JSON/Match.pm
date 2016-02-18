@@ -1,7 +1,7 @@
 package PERLANCAR::JSON::Match;
 
 our $DATE = '2016-02-18'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
@@ -122,7 +122,7 @@ PERLANCAR::JSON::Match - Match JSON string using regex
 
 =head1 VERSION
 
-This document describes version 0.01 of PERLANCAR::JSON::Match (from Perl distribution PERLANCAR-JSON-Match), released on 2016-02-18.
+This document describes version 0.02 of PERLANCAR::JSON::Match (from Perl distribution PERLANCAR-JSON-Match), released on 2016-02-18.
 
 =head1 SYNOPSIS
 
@@ -132,7 +132,8 @@ This document describes version 0.01 of PERLANCAR::JSON::Match (from Perl distri
 =head1 DESCRIPTION
 
 This module is basically just L<JSON::Decode::Regexp> with all the embedded Perl
-code removed. Used for testing/benchmarking only.
+code removed. So the regexp cannot build decoded JSON and can only match
+instead. Used for testing/benchmarking only.
 
 =head1 FUNCTIONS
 

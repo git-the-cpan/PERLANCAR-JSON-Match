@@ -6,7 +6,8 @@ SYNOPSIS
 DESCRIPTION
 
     This module is basically just JSON::Decode::Regexp with all the
-    embedded Perl code removed. Used for testing/benchmarking only.
+    embedded Perl code removed. So the regexp cannot build decoded JSON and
+    can only match instead. Used for testing/benchmarking only.
 
 FUNCTIONS
 

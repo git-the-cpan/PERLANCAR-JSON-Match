@@ -25,7 +25,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=PERLANCAR-JSON-Match
   homepage: https://metacpan.org/release/PERLANCAR-JSON-Match
   repository: git://github.com/perlancar/perl-PERLANCAR-JSON-Match.git
-version: '0.01'
+version: '0.02'
 x_Dist_Zilla:
   perl:
     version: '5.022000'
